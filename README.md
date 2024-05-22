@@ -5,22 +5,23 @@ This is a Grin node application for the Umbrel community app store.
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/umbrel-grin-node.git
-   
+git clone https://github.com/yourusername/umbrel-grin-node.git
+    ```
 2. Navigate to the application directory:
-```bash
+   ```bash
 cd umbrel-grin-node/app
-```
-
-   cd umbrel-grin-node/app
-
-Build the Docker image:
+   ```
+3. Build the Docker image:
+   ```bash
    docker build -t grin-node.
-
-Run the container:
+   ```
+4. Run the container:
+   ```bash
    docker-compose up
-
-Access the Grin node through the exposed ports:
+   ```
+5. Access the Grin node through the exposed ports:
+   ```bash
    3414: Grin peer-to-peer network
    13414: Grin owner API
    13415: Grin foreign API
+   ```
