@@ -1,1 +1,10 @@
-
+version: '3.7'
+services:
+  grin-node:
+    build: .
+    volumes:
+      - ./data:/root/.grin
+    ports:
+      - "3414:3414"
+      - "13414:13414"
+      - "13415:13415"
