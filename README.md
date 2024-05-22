@@ -8,8 +8,9 @@ This is a Grin node application for the Umbrel community app store.
    git clone https://github.com/yourusername/umbrel-grin-node.git
    
 2. Navigate to the application directory:
+```bash
 cd umbrel-grin-node/app
-
+```
 
    cd umbrel-grin-node/app
 
