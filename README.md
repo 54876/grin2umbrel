@@ -2,13 +2,12 @@
 
 This is a Grin node application for the Umbrel community app store.
 
-
 1. Clone this repository:
-   ```bash
+```bash
 git clone https://github.com/yourusername/umbrel-grin-node.git
-    ```
+```
 2. Navigate to the application directory:
-   ```bash
+```bash
 cd umbrel-grin-node/app
    ```
 3. Build the Docker image:
