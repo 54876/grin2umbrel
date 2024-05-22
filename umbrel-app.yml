@@ -1,6 +1,6 @@
 version: 1
-id: grin-node
-name: Grin Node
+id: grin-umrel
+name: Grin2Umbrel
 description: Run a Grin cryptocurrency node.
 website: https://github.com/mimblewimble/grin
 repository: https://github.com/54876/grin2umbrel
