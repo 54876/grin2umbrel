@@ -7,7 +7,10 @@ This is a Grin node application for the Umbrel community app store.
    ```bash
    git clone https://github.com/yourusername/umbrel-grin-node.git
    
-Navigate to the application directory:
+2. Navigate to the application directory:
+cd umbrel-grin-node/app
+
+
    cd umbrel-grin-node/app
 
 Build the Docker image:
