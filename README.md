@@ -1,6 +1,6 @@
 # Grin Node for Umbrel
 
-This is a Grin node application for the Umbrel community app store.
+This is a Grin node application for Umbrel community store.
 
 ## Installation
 
