@@ -3,7 +3,7 @@ id: grin-node
 name: Grin Node
 description: Run a Grin cryptocurrency node.
 website: https://github.com/mimblewimble/grin
-repository: https://github.com/yourusername/umbrel-grin-node
+repository: https://github.com/54876/grin2umbrel
 license: MIT
 categories:
   - cryptocurrency
