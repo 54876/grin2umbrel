@@ -1,1 +1,11 @@
-
+version: 1
+id: grin-node
+name: Grin Node
+description: Run a Grin cryptocurrency node.
+website: https://github.com/mimblewimble/grin
+repository: https://github.com/yourusername/umbrel-grin-node
+license: MIT
+categories:
+  - cryptocurrency
+  - blockchain
+entrypoint: /entrypoint.sh
