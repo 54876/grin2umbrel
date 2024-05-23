@@ -11,7 +11,7 @@ This is a Grin node application for Umbrel community store.
 
 2. Navigate to the application directory:
    ```bash
-   cd grin2umbrel/app
+   cd grin2umbrel
    ```
 
 3. Build the Docker image:
