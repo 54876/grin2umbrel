@@ -1,3 +1,3 @@
 # Grin Node for Umbrel
 
-Grin node application for Umbrel app store.
+Grin node for Umbrel app store.
