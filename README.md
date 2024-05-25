@@ -1,3 +1,3 @@
-# Grin Node for Umbrel
+# Grin2Umbrel
 
 Grin node for Umbrel app store.
