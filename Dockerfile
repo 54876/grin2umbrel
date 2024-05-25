@@ -12,7 +12,7 @@ RUN git clone https://github.com/mimblewimble/grin.git /grin
 WORKDIR /grin
 RUN cargo build --release
 
-RUN mkdir -p /root/.grin
+RUN mkdir -p .grin
 
 EXPOSE 3414 3415
 
