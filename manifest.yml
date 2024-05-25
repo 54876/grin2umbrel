@@ -1,0 +1,7 @@
+id: grin
+version: 1.0.0
+title: Grin Node
+description: Run a Grin node on your Umbrel
+author: 54876
+repository: https://github.com/54876/grin2umbrel
+homepage: https://github.com/54876/grin2umbrel
