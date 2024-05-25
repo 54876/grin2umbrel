@@ -1,26 +1,19 @@
-
 FROM ubuntu:20.04
 
-# Install dependencies
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    libssl-dev \
-    pkg-config \
-    curl \
-    git
+RUN apt-get update && \
+    apt-get install -y build-essential cmake pkg-config libssl-dev && \
+    apt-get install -y curl git clang
 
-# Install Rust
-RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-ENV PATH="/root/.cargo/bin:${PATH}"
+RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
+ENV PATH=/root/.cargo/bin:$PATH
 
-# Copy entrypoint script
-COPY entrypoint.sh /entrypoint.sh
+RUN git clone https://github.com/mimblewimble/grin.git /grin
 
-# Set permissions
-RUN chmod +x /entrypoint.sh
+WORKDIR /grin
+RUN cargo build --release
 
-# Set working directory
-WORKDIR /root
+RUN mkdir -p /root/.grin
 
-# Run entrypoint script
-ENTRYPOINT ["/entrypoint.sh"]
+EXPOSE 3414 3415
+
+CMD ["./target/release/grin"]
