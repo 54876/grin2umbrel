@@ -1,13 +1,16 @@
-version: "3"
+version: "3.7"
 
 services:
   grin:
     build: .
     ports:
       - "3414:3414"
-      - "3415:3415"
+      - "13414:13414"
+      - "13415:13415"
     volumes:
-      - "grin-data:/root/.grin"
+      - "grin-data:/home/grinuser/.grin"
+    environment:
+      - USER=grinuser
 
 volumes:
   grin-data:
